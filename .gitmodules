@@ -1,0 +1,6 @@
+[submodule "microservice-communication-encryption"]
+	path = microservice-communication-encryption
+	url = https://github.com/sustainablility/microservice-communication-encryption.git
+[submodule "user-panel-font-end"]
+	path = user-panel-font-end
+	url = https://github.com/sustainablility/user-panel-font-end.git

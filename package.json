@@ -1,0 +1,29 @@
+{
+  "name": "oauth-login",
+  "version": "1.0.0",
+  "description": "oauth-login",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sustainablility/oauth-login.git"
+  },
+  "author": "Linbin Pang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sustainablility/oauth-login/issues"
+  },
+  "homepage": "https://github.com/sustainablility/oauth-login#readme",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "silly-datetime": "^0.1.2"
+  }
+}
