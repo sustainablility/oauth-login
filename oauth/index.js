@@ -37,7 +37,7 @@ function callback(request, response) {
             return null;
         }
 
-        response.cookie("userToken", userToken).redirect(301, "/")
+        response.cookie("userToken", userToken).redirect(301, "/user-panel")
     })();
 }
 
