@@ -1,6 +1,8 @@
 let request = require('request-promise');
 let encryption = require('../microservice-communication-encryption/index');
 let config = require('../config');
+let log = require('../log');
+
 
 /**
  * Handle the data from github and return a token
@@ -17,6 +19,9 @@ async function forGithub(data) {
         headers: {
             'User-Agent': 'Sustainablility'
         }
+    })
+        .catch(err => {
+        log.fatal("Request user management service failed",err);
     });
     if (response === undefined) {
         return null;

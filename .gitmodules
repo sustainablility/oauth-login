@@ -4,3 +4,9 @@
 [submodule "user-panel-font-end"]
 	path = user-panel-font-end
 	url = https://github.com/sustainablility/user-panel-font-end.git
+[submodule "data-visualizing"]
+	path = data-visualizing
+	url = https://github.com/sustainablility/data-visualizing.git
+[submodule "procedure-editor-font-end"]
+	path = procedure-editor-font-end
+	url = https://github.com/sustainablility/procedure-editor-font-end.git
